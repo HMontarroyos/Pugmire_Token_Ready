@@ -2,7 +2,7 @@ import React from "react";
 import { Header, Footer } from "../../components";
 import * as S from "./styled";
 import Book from "../../assets/images/livro.png";
-import { Artesão } from "../../assets/images/Brasão";
+import { Vocations } from "../../global/const";
 
 const Home: React.FC = () => {
   return (
@@ -11,21 +11,25 @@ const Home: React.FC = () => {
       <S.Container>
         <S.ContainerToken>
           <S.Title>Vamos lá, escolha sua ficha ;) </S.Title>
-          <S.ContainerShield>
-            <a
-              href="https://drive.google.com/file/d/14smcgjdm6LJpwK-c2_yTesh8epkv4HIa/view?usp=drive_link"
-              target="_blank"
-            >
-              <S.Shield src={Artesão} alt={"Artesão"} />
-            </a>
-          </S.ContainerShield>
+          <S.SubTitle>
+            Vocações
+          </S.SubTitle>
+          <div style={{display: "flex", gap: 10}}>
+          {Vocations &&
+            Vocations.map((vocation, index) => (
+              <S.ContainerShield key={index}>
+                <a href={vocation.link} target="_blank">
+                  <S.Shield src={vocation.image} alt={vocation.name} />
+                </a>
+              </S.ContainerShield>
+            ))}
+          </div>
         </S.ContainerToken>
         <S.ContainerBook>
           <S.TitleBook>Garanta Já o Seu Livro Básico de Pugmire</S.TitleBook>
-          <S.SubTitle>
-            {" "}
+          <S.SubTitleBook>
             Explore um Mundo Épico de Aventuras Caninas!{" "}
-          </S.SubTitle>
+          </S.SubTitleBook>
           <S.Paragraph>
             Em Pugmire, cães heróicos exploram ruínas antigas e enfrentam
             perigos desconhecidos, com um sistema de regras simplificado que

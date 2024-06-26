@@ -28,7 +28,7 @@ export const ContainerText = styled.div`
 `;
 
 export const Title = styled.h1`
-text-align: center;
+  text-align: center;
   color: ${(props) => props.theme.colors.text};
   font-size: 40px;
   margin-bottom: 10px;
@@ -39,8 +39,22 @@ text-align: center;
   }
 `;
 
+export const SubTitle = styled.h1`
+  text-align: center;
+  color: ${(props) => props.theme.colors.text};
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  @media (max-width: 580px) {
+    font-size: 10px;
+  }
+`;
+
 export const TitleBook = styled.h1`
-text-align: center;
+  text-align: center;
   color: ${(props) => props.theme.colors.text};
   font-size: 30px;
   margin-bottom: 10px;
@@ -51,8 +65,8 @@ text-align: center;
   }
 `;
 
-export const SubTitle = styled.h1`
-text-align: center;
+export const SubTitleBook = styled.h1`
+  text-align: center;
   color: ${(props) => props.theme.colors.text};
   font-size: 20px;
   margin-bottom: 10px;
@@ -81,6 +95,7 @@ export const ContainerToken = styled.div`
 export const ContainerShield = styled.div`
   display: flex;
   gap: 20;
+  flex-wrap: wrap;
 `;
 
 export const Shield = styled.img`

@@ -16,9 +16,7 @@ function Footer() {
             Hebert Montarroyos
           </S.Link>{" "}
           com o objetivo de divulgar o <i>RPG Pugmire</i>, sem fins comerciais.
-        </S.Text>
-        <S.Text>
-          {" "}
+          <br/>
           Os lucros provenientes da venda dos livros são destinados
           exclusivamente à própria editora.{" "}
         </S.Text>
@@ -70,21 +68,20 @@ function Footer() {
           <S.Text>
             Todos os direitos da obra <i>Pugmire</i> publicada no Brasil são de
             propriedade exclusiva da{" "}
-            <S.Link href="https://newordereditora.com/" target="_blank">
+            <b>
               Editora New Order
-            </S.Link>
+            </b>
             .
-          </S.Text>
-          <S.Text>
+            <br/>
             Além disso, todos os direitos autorais e de propriedade intelectual
             relacionados a Pugmire são detidos pela empresa{" "}
-            <S.Link href="https://www.pugsteady.com/pugsteady" target="_blank">
+            <b>
               Pug Steady
-            </S.Link>
+            </b>
             , criadora da obra, em colaboração com a{" "}
-            <S.Link href="https://theonyxpath.com/" target="_blank">
+            <b>
               Onyx Path Publishing
-            </S.Link>
+            </b>
             .
           </S.Text>
         </div>

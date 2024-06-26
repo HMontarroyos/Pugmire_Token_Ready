@@ -5,7 +5,7 @@ export const Container = styled.div`
   width: 100%; /* Ocupa toda a largura */
   background-color: #396193;
   border-top: 5px solid #ccb842;
-  padding: 20px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
