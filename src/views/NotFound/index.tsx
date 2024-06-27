@@ -4,7 +4,6 @@ import Lottie from "react-lottie";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRotateLeft } from "@fortawesome/free-solid-svg-icons";
 import { NotFoundAnimation } from "../../assets/lotties";
-import { Footer, HeaderAnimation } from "../../components";
 
 const NotFound: React.FC = () => {
   const defaultOptions = {
@@ -17,10 +16,6 @@ const NotFound: React.FC = () => {
   };
 
   return (
-    <>
-      <S.ContainerHeader>
-        <HeaderAnimation />
-      </S.ContainerHeader>
       <S.Container>
         <Lottie options={defaultOptions} height={100} width={200} />
         <S.Description>
@@ -39,8 +34,6 @@ const NotFound: React.FC = () => {
           </S.LinkRedirect>
         </S.ContainerLink>
       </S.Container>
-      <Footer />
-    </>
   );
 };
 
