@@ -11,22 +11,20 @@ const Home: React.FC = () => {
       <S.Container>
         <S.ContainerToken>
           <S.Title>Vamos lá, escolha sua ficha ;) </S.Title>
-          <S.SubTitle>
-            Vocações
-          </S.SubTitle>
-          <div style={{display: "flex", gap: 10}}>
-          {Vocations &&
-            Vocations.map((vocation, index) => (
-              <S.ContainerShield key={index}>
-                <a href={vocation.link} target="_blank">
-                  <S.Shield src={vocation.image} alt={vocation.name} />
-                </a>
-              </S.ContainerShield>
-            ))}
+          <S.SubTitle>Vocações</S.SubTitle>
+          <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
+            {Vocations &&
+              Vocations.map((vocation, index) => (
+                <S.ContainerShield key={index}>
+                  <a href={vocation.link} target="_blank">
+                    <S.Shield src={vocation.image} alt={vocation.name} />
+                  </a>
+                </S.ContainerShield>
+              ))}
           </div>
         </S.ContainerToken>
         <S.ContainerBook>
-          <S.TitleBook>Garanta Já o Seu Livro Básico de Pugmire</S.TitleBook>
+          <S.Title>Garanta Já o Seu Livro Básico de Pugmire</S.Title>
           <S.SubTitleBook>
             Explore um Mundo Épico de Aventuras Caninas!{" "}
           </S.SubTitleBook>

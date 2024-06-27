@@ -30,10 +30,18 @@ export const ContainerLogo = styled.div`
 `;
 
 export const Logo = styled.img`
+  width: 600px;
+  height: 120px;
 
-width: 600px;
-height: 120px;
+  @media (max-width: 600px) {
+    width: 400px;
+    height: 80px;
+  }
 
+  @media (max-width: 360px) {
+    width: 300px;
+    height: 70px;
+  }
 `;
 
 export const LinkRedirect = styled(Link)`

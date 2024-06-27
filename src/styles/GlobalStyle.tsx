@@ -5,6 +5,8 @@ export const GlobalStyle = createGlobalStyle`
     border: 0;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
   }
 
   /* Works on Firefox */
@@ -32,6 +34,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
  
-  body {background-color:  #5D4724;}
+  body {
+  background-color:  #5D4724;
+  overflow-x: hidden;
+  width: 100%;
+  }
 
 `;

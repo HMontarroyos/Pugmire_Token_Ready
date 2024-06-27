@@ -26,6 +26,7 @@ export const ContainerPublishingCompany = styled.div`
   text-align: center;
   justify-content: space-around;
   width: calc(100% - 100px);
+  flex-wrap: wrap;
 `;
 
 export const Link = styled.a`
