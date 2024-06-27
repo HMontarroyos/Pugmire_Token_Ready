@@ -16,24 +16,28 @@ const NotFound: React.FC = () => {
   };
 
   return (
-      <S.Container>
-        <Lottie options={defaultOptions} height={100} width={200} />
-        <S.Description>
-          Oops! Parece que você se aventurou em terras desconhecidas, mas não se
-          preocupe, estamos só dando uma pausa dramática.
-        </S.Description>
-        <S.Description>
-          Volte logo ao mundo real clicando no botão abaixo e descubra um
-          universo de coisas incríveis no meu portfolio. A diversão está apenas
-          começando!
-        </S.Description>
-        <S.ContainerLink>
-          <S.LinkRedirect to={'/'}>
-            Voltar ao Início
-            <FontAwesomeIcon style={{ marginLeft: "8px" }} icon={faArrowRotateLeft} />
-          </S.LinkRedirect>
-        </S.ContainerLink>
-      </S.Container>
+    <S.Container>
+      <Lottie options={defaultOptions} height={100} width={200} />
+      <S.Description>
+        Oops! Você se aventurou nas terras misteriosas de Pugmire!
+      </S.Description>
+      <S.Description>
+        Parece que você tropeçou em um canto perdido do reino dos cães, muito
+        tempo após o fim da Era dos Humanos.<br/> Mas não se preocupe, esta é apenas
+        uma pausa dramática na sua jornada. <br/>Volte ao caminho principal clicando
+        no botão abaixo e explore um universo cheio de maravilhas em meu
+        portfólio.<br/> A aventura está apenas começando!
+      </S.Description>
+      <S.ContainerLink>
+        <S.LinkRedirect to={"/"}>
+          Voltar ao Início
+          <FontAwesomeIcon
+            style={{ marginLeft: "8px" }}
+            icon={faArrowRotateLeft}
+          />
+        </S.LinkRedirect>
+      </S.ContainerLink>
+    </S.Container>
   );
 };
 
