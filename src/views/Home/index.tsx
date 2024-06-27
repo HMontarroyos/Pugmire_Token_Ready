@@ -10,7 +10,7 @@ const Home: React.FC = () => {
       <S.ContainerToken>
         <S.Title>Vamos lá, escolha sua ficha ;) </S.Title>
         <S.SubTitle>Vocações</S.SubTitle>
-        <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
+        <div style={{ display: "flex", gap: 10, flexWrap: "wrap", justifyContent: "center" }}>
           {Vocations &&
             Vocations.map((vocation, index) => (
               <S.ContainerShield key={index}>
