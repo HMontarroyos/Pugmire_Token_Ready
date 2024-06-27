@@ -1,5 +1,4 @@
 import React from "react";
-import { Header, Footer } from "../../components";
 import * as S from "./styled";
 import Book from "../../assets/images/livro.png";
 import { Vocations } from "../../global/const";
@@ -14,7 +13,7 @@ const Home: React.FC = () => {
           {Vocations &&
             Vocations.map((vocation, index) => (
               <S.ContainerShield key={index}>
-                <a href={vocation.link} target="_blank">
+                <a href={vocation.link} target="_blank" rel="noreferrer">
                   <S.Shield src={vocation.image} alt={vocation.name} />
                 </a>
               </S.ContainerShield>

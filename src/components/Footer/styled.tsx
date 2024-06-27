@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  bottom: 0; /* Fica sempre na parte inferior */
-  width: 100%; /* Ocupa toda a largura */
+  bottom: 0;
+  width: 100%;
   background-color: #396193;
   border-top: 5px solid #ccb842;
   padding: 5px;
