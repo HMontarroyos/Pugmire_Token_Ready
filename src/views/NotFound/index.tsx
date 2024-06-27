@@ -25,8 +25,7 @@ const NotFound: React.FC = () => {
         Parece que você tropeçou em um canto perdido do reino dos cães, muito
         tempo após o fim da Era dos Humanos.<br/> Mas não se preocupe, esta é apenas
         uma pausa dramática na sua jornada. <br/>Volte ao caminho principal clicando
-        no botão abaixo e explore um universo cheio de maravilhas em meu
-        portfólio.<br/> A aventura está apenas começando!
+        no botão abaixo e explore um universo cheio de maravilhas.<br/> A aventura está apenas começando!
       </S.Description>
       <S.ContainerLink>
         <S.LinkRedirect to={"/"}>
