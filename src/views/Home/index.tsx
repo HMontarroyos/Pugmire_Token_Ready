@@ -24,8 +24,8 @@ const Home: React.FC = () => {
       <Modal
         show={showModal}
         onClose={closeModal}
-        title="Mesa Triforce RPG: Siga-nos e Viva Aventuras Épicas!"
-        text="Apaixonado por RPG? Junte-se à Mesa Triforce RPG, uma comunidade vibrante no RJ. Siga nossa página para ficar por dentro de eventos exclusivos, dicas de RPG e muito mais! Envie-nos um direct para saber mais. 🌟"
+        title="Tecno Forja RPG: Siga-nos e Viva Aventuras Épicas!"
+        text="Apaixonado por RPG? Junte-se à nossa iniciativa da Tecno Forja RPG, uma comunidade vibrante no RJ. Siga nossa página para ficar por dentro de eventos exclusivos, dicas de RPG e muito mais! Envie-nos um direct para saber mais. 🌟"
       />
       <S.ContainerToken>
         <S.Title>Vamos lá, escolha sua ficha ;) </S.Title>

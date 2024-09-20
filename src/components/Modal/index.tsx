@@ -24,16 +24,16 @@ const Modal: React.FC<ModalProps> = ({ show, onClose, title, text }) => {
           <S.ContainerLogo>
 
           <a
-            href={"https://www.instagram.com/mesa_rpg_triforce/"}
+            href={"https://www.instagram.com/tecno_forja_rpg/"}
             target="_blank"
             rel="noreferrer"
           >
             <S.Image
               src={Logo_Mesa_Triforce_RPG}
-              alt={"Logo_Mesa_Triforce_RPG"}
+              alt={"Logo_Tecno_Forja_RPG"}
             />
           </a>
-            <S.ModalTitle>@MESA_TRIFORCE_RPG</S.ModalTitle>
+            <S.ModalTitle>@TECNO_FORJA_RPG</S.ModalTitle>
           </S.ContainerLogo>
         </S.ContainerText>
       </S.ModalContent>
